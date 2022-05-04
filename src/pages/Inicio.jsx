@@ -11,23 +11,28 @@ export const Inicio = () => {
     return (
         <>
 
-            <div className="fundo-tom-escuro">
+            <div className="secao-1">
                 <span>
                     <h1>Davison Vinicius</h1>
                     <h3>Desenvolvedor de Software</h3>
                 </span>
 
                 <span>
-                <a href="https://www.linkedin.com/in/davisonv/" style={{paddingRight: '20px'}}>
+                <a href="https://www.linkedin.com/in/davisonv/"  target="_blank" style={{paddingRight: '20px'}}>
                     <img src={linkedinImg} alt="logo do linkedin"></img>
                 </a>
-                <a href="https://github.com/davisonv/">
+                <a href="https://github.com/davisonv/" target="_blank">
                     <img src={githubImg} alt="logo do github"></img>
                 </a>
                 </span>
+                <br></br>
+                <button className="botao-orcamento"> Solicite um orçamento</button>
+
             </div>
 
-            
+            <div className="secao-2">
+            </div>
+
         </>
     )
 }

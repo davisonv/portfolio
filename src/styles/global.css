@@ -14,3 +14,15 @@ body {
 body, input, button, textarea {
     font: 400 16px 'Ubuntu', sans-serif;
 }
+
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #3f3f4a;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0d0d11;    /* color of the scroll thumb */
+  }
