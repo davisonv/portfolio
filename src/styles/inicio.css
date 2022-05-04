@@ -18,6 +18,7 @@
 img {
     width: 32px;
     height: 32px;
+    transition: width 300ms, height 400ms;
 }
 
 h1 {
@@ -31,7 +32,6 @@ h3 {
 
 
 img:hover {
-    transition: width 300ms, height 400ms;
     width: 40px;
     height: 40px;
 }
