@@ -30,12 +30,17 @@ export const Inicio = () => {
                 </span>
                 
                 <BreakFlexLine />
-                
-                <button className="botao-orcamento"> Solicite um orçamento</button>
+
+                <a href="https://forms.gle/dGWjBGf8qYoozCLW6" target="_blank">
+                    <button className="botao-orcamento">
+                        Solicite um orçamento
+                    </button>
+                </a>
 
             </div>
 
             <div className="secao-2">
+
             </div>
 
         </>

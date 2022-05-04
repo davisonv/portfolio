@@ -43,6 +43,10 @@ img:hover {
     
 }
 
+a {
+    margin: 0 auto;
+}
+
 .botao-orcamento {
     width: 300px;
     height: 50px;
@@ -50,7 +54,6 @@ img:hover {
     border: none;
     background-color: #6879d9;
     color: #fff;
-    margin: 0 auto;
     cursor: pointer;
     transition: transform 700ms, background-color 400ms;
 }
