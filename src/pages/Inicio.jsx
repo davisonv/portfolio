@@ -1,10 +1,13 @@
 import React from 'react'
 
+//components
+import { BreakFlexLine } from '../components/BreakFlexLine'
+
 //images
 import linkedinImg from '../assets/images/linkedin.svg'
 import githubImg from '../assets/images/github.svg'
 
-
+//styles
 import '../styles/inicio.css'
 
 export const Inicio = () => {
@@ -25,7 +28,9 @@ export const Inicio = () => {
                     <img src={githubImg} alt="logo do github"></img>
                 </a>
                 </span>
-                <br></br>
+                
+                <BreakFlexLine />
+                
                 <button className="botao-orcamento"> Solicite um orçamento</button>
 
             </div>

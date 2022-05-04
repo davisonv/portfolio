@@ -50,6 +50,14 @@ img:hover {
     border: none;
     background-color: #6879d9;
     color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 700ms, background-color 400ms;
+}
+
+.botao-orcamento:hover {
+    transform: translateY(7px);
+    background-color: #374699;
 }
 
 
