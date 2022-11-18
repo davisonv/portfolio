@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+  font-family: 'Good Timing';
+  src: url('../assets/fonts/good-timing.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Orkney';
+  src: url('../assets/fonts/orkney-regular.otf') format('opentype');
+}
 
 * {
     margin: 0;
@@ -12,7 +20,7 @@ body {
 }
 
 body, input, button, textarea {
-    font: 400 16px 'Ubuntu', sans-serif;
+    font: 400 16px 'Orkney', sans-serif;
 }
 
 body::-webkit-scrollbar {
