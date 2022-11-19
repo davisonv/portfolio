@@ -12,12 +12,6 @@ const HeaderContainer = styled.div`
   justify-content: center;
   align-items: flex-end;
   height: 100vh;
-  width: 100vw;
-`
-
-const ItemMenu = styled.a`
-  display: flex;
-  align-items: center;
 `
 
 function Header () {
@@ -75,10 +69,8 @@ function Header () {
     <>
       <Menu styles={styles}>
         <a id="home" href="/">
-            Home
+          Home
         </a>
-        <a id="about" href="/about">About</a>
-        <a id="contact" href="/contact">Contact</a>
       </Menu>
 
       <HeaderContainer>
@@ -94,7 +86,6 @@ function Header () {
       </h1>
     </HeaderContainer>
     </>
-    
   )
 }
 

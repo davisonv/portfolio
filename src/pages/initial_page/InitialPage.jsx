@@ -1,10 +1,13 @@
 import React from "react";
 
-import { Header } from './components'
+import { Header, About } from './components'
 
 function InitialPage () {
   return (
-    <Header/>
+    <>
+      <Header/>
+      <About/>
+    </>
   )
 }
 
